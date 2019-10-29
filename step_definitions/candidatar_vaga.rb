@@ -1,4 +1,4 @@
-Selenium::WebDriver::Chrome.driver_path="C:/Users/dsmd/Documents/chromedriver/chromedriver.exe"
+Selenium::WebDriver::Chrome.driver_path="C:/chromedriver.exe"
 
 Dado("o site da Inmetrics") do
   @driver = Selenium::WebDriver.for :chrome
